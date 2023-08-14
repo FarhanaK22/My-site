@@ -1,14 +1,13 @@
-body{
-  background-color: white;
+*{
   padding: 0;
   margin: 0;
+  box-sizing:border-box;
 }
 h1{
   font-size:4rem;
   text-align: center;
   font-family: 'Sacramento', cursive;
   color:#6699CC;
-  margin: 50px auto 0 auto;
 }
 h2{
   text-align: center;
@@ -28,8 +27,6 @@ h3{
 }
 h6{
   position: fixed;
-  left: 0;
-  bottom: 0;
   margin-bottom: 0;
   background-color:#8DA399;
   font-family:Montserrat;
@@ -52,21 +49,16 @@ p{
   font-family: 'Montserrat', sans-serif;
   font-size:1rem;
   font-weight: bolder;
-  position: absolute;
   color:white;
   line-height: 2;
-  margin:auto 20px auto 20px;
-  height:auto;
 }
 img{
   height:300px;
-  position:relative;
   display:block;
   margin:auto;
 }
 a{
   font-size: 1rem;
-  margin: 5px auto 5px auto;
   text-decoration: none;
   word-spacing: 3px;
 }
@@ -74,35 +66,23 @@ a:hover{
   color:#66BFBF;
 }
 .info{
-  position: relative;
-  margin:2% 0 auto 0;
-  height: 400px;
   display:flex;
   flex-direction:row;
   justify-content:space-evenly;
-  padding:5px;
 }
 .edu{
-  position: absolute;
-  left:10%;
-  width: 25%;
   height:400px;
   background-color:#339999;
   border-radius:0 20px;
 }
 .skill{
-  position: absolute;
-  left:37.5%;
   height:400px;
-  width: 25%;
   background-color:#339999;
   border-radius: 0 20px;
 }
 .other{
-  position:absolute;
   height:400px;
   right:10%;
-  width: 25%;
   background-color:	#339999;
   border-radius: 0 20px ;
 }
