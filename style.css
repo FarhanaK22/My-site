@@ -80,6 +80,7 @@ a:hover{
   display:flex;
   flex-direction:row;
   justify-content:space-evenly;
+  padding:5px;
 }
 .edu{
   position: absolute;
@@ -115,3 +116,6 @@ a:hover{
   width:50%;
   margin: auto;
 }
+@media (max-width:540px){
+  .info{
+    flex-direction:column;}}
