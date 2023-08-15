@@ -99,9 +99,11 @@ a:hover{
   font-size: 1.1rem;
   line-height: 2;
  width: 50%;
+       align-self:center;
 }
 .box1{position: relative;
   width: 50%;
+      align-self:center;
 }
 .box2 p{
   line-height: 2;
